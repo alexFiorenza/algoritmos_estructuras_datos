@@ -1,3 +1,6 @@
+// Lección 1
+// 1.2.1.1. Operaciones aritméticas
+// 1.2.1.2. Cociente entre dos números
 #include <iostream>
 #include <string>
 using namespace std;
