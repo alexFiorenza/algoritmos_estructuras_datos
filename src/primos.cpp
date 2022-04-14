@@ -25,7 +25,13 @@ vector<int> Sieve(int n)
     for (int i = 2; i <= sqrtN; i++)
     {
         if (!input[i])
+        {
             continue;
+        }
+        for (int j = i * i; j <= n; j += i)
+        {
+            input[j] = false;
+        }
     }
     primes.push_back(2);
     for (int i = 3; i <= n; i += 2)
