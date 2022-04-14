@@ -1,3 +1,5 @@
+// Lección 1
+// 1.2.1.3. División entera y módulo
 #include <iostream>
 #include <string>
 using namespace std;
