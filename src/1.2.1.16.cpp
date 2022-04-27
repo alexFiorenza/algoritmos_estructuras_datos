@@ -17,6 +17,6 @@ int main()
         }
         i++;
     }
-    cout << "El indice que ha seleccionado corresponde al número:  " << current << " en la sucesfion Fibonacci" << endl;
+    cout << "El indice que ha seleccionado corresponde al número:  " << current << " en la sucesion Fibonacci" << endl;
     return 0;
 }
