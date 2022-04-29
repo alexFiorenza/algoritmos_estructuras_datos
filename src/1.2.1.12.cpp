@@ -1,3 +1,4 @@
+// Lección 1
 // 1.2.1.12. Producto mediante sumas sucesivas
 #include <iostream>
 using namespace std;

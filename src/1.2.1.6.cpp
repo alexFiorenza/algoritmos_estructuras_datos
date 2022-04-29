@@ -1,57 +1,45 @@
 // Lección 1
 // 1.2.1.6. Mayor, medio y menor valor entre tres números
+// Codigo hecho por el profesor
 #include <iostream>
 using namespace std;
-int main()
+
+int maximo(int a, int b)
 {
-    int a, b, c;
-    int max = 0, min = 0, half = 0;
-    cout << "Ingrese 3 valores numericos enteros: " << endl;
-    cin >> a;
-    cin >> b;
-    cin >> c;
-    if (a > b && a > c)
+    int ret = b;
+
+    if (a > b)
     {
-        max = max + a;
-        if (b > c)
-        {
-            half = half + b;
-            min = min + c;
-        }
-        else
-        {
-            half = half + c;
-            min = min + b;
-        }
-    }
-    else if (b > a && b > c)
-    {
-        max = max + b;
-        if (a > c)
-        {
-            half = half + a;
-            min = min + c;
-        }
-        else
-        {
-            half = half + c;
-            min = min + a;
-        }
-    }
-    else
-    {
-        max = max + c;
-        if (b > a)
-        {
-            half = half + b;
-            min = min + a;
-        }
-        else
-        {
-            half = half + a;
-            min = min + b;
-        }
+        ret = a;
     }
 
-    cout << "El mayor es: " << max << " el del medio es: " << half << " el menor es: " << min << endl;
+    return ret;
+}
+
+int minimo(int a, int b)
+{
+    int ret = b;
+
+    if (a < b)
+    {
+        ret = a;
+    }
+
+    return ret;
+}
+
+// Dados 3 valores numéricos diferentes entre si, determinar cual es el menor, medio y mayor
+
+int main()
+{
+    int x, y, z;
+
+    cout << "Ingrese 3 valores: " << endl;
+    cin >> x >> y >> z;
+
+    int mayor = maximo(x, maximo(y, z));
+    int menor = minimo(x, minimo(y, z));
+    int medio = x + y + z - mayor - menor;
+
+    return 0;
 }
