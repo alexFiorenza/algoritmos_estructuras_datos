@@ -20,6 +20,6 @@ int main()
         }
         cin >> a;
     }
-    cout << "El mayor de los mayores de -10 es: " << negatives_min << endl;
+    cout << "El menor de los mayores de -10 es: " << negatives_min << endl;
     return 0;
 }

@@ -17,6 +17,6 @@ int main()
         index++;
         cin >> a;
     }
-    cout << "El mayor de los enteros ingresados es: " << min << endl;
+    cout << "El menor  de los enteros ingresados es: " << min << endl;
     return 0;
 }
