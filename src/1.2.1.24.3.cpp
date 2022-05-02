@@ -5,12 +5,12 @@
 using namespace std;
 int main()
 {
-    int a, min, index = 0;
+    int a, min = 0, index = 0;
     cin >> a;
     cout << "Ingrese 100 valores enteros: " << endl;
     while (index < 100)
     {
-        if (a < min)
+        if (a < min || (min == 0 && index == 0))
         {
             min = a;
         }

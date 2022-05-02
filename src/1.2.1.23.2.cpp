@@ -12,7 +12,7 @@ int main()
     {
         if (a > -10)
         {
-            if (a > negatives_max)
+            if (a > negatives_max || (negatives_max == 0 && index == 0))
             {
                 negatives_max = a;
             }

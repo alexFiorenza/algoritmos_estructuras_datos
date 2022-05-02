@@ -10,7 +10,7 @@ int main()
     cout << "Ingrese 100 valores enteros: " << endl;
     while (index < 100)
     {
-        if (a > max)
+        if (a > max || (max == 0 && index == 0))
         {
             max = a;
         }

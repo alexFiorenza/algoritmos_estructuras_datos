@@ -12,7 +12,7 @@ int main()
     {
         if (a < 0)
         {
-            if (a < min)
+            if (a < min || (min == 0 && index == 0))
             {
                 min = a;
             }

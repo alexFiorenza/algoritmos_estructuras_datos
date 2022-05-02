@@ -13,7 +13,7 @@ int main()
     {
         if (a > 0)
         {
-            if (a > max)
+            if (a > max || (max == 0 && index == 0))
             {
                 max = a;
             }
