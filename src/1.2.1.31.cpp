@@ -1,5 +1,5 @@
 // Lección 1
-// 1.2.1.30. Seguidilla
+// 1.2.1.31. Palabras dentro de una oración
 
 #include <iostream>
 using namespace std;
