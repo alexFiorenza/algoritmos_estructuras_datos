@@ -1,5 +1,5 @@
 // Lección 1
-// 1.2.1.27. Persona más joven, persona más vieja
+// 1.2.1.28. Conjuntos y subconjuntos
 
 #include <iostream>
 using namespace std;
